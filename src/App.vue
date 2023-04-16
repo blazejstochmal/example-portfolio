@@ -5,6 +5,9 @@
   <ExperienceGained/>
   <ContactPage/>
   <BackToWelcomePage/>
+  <SiteFooter/>
+  <SideBar/>
+  <Icons/>
 </template>
 
 <script>
@@ -14,6 +17,8 @@ import WorkPlaces from './components/WorkPlaces.vue';
 import ExperienceGained from './components/ExperienceGained.vue';
 import ContactPage from './components/ContactPage.vue';
 import BackToWelcomePage from './components/BackToWelcomePage.vue';
+import SiteFooter from './components/SiteFooter.vue';
+import SideBar from './components/SideBar.vue';
 export default {
   name: 'App',
   components: {
@@ -22,7 +27,9 @@ export default {
     WorkPlaces,
     ExperienceGained,
     ContactPage,
-    BackToWelcomePage
+    BackToWelcomePage,
+    SiteFooter,
+    SideBar
   }
 }
 </script>
